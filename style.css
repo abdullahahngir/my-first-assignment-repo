@@ -2,8 +2,6 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 body{
     font-family: "Azeret Mono", monospace;
@@ -13,7 +11,6 @@ body{
 .banner-container{
    width: 1440px;
    margin: 0 auto;
-   border: 2px solid red;
    min-height: 652px;
    margin-top: 20px;
    background-image: url(B10A1-Challenge-Begins-main/assets/Hero-bg.png);
@@ -41,7 +38,6 @@ body{
     margin-bottom: 32px;
     font-size: 16px;
     color: #0D1321;
-    text-align: center;
 }
 .btn{
     padding: 15px;
@@ -50,4 +46,111 @@ body{
     font-weight: 700;
     color: #ffffff;
     border-radius: 2px;
+}
+
+
+/* boby designing designing */
+
+
+.main{
+    width: 944px;
+    height: 1233px;
+    margin: 20px auto;
+    padding: 80px 97px;
+    background-color: #c8c8db;
+    border-radius: 16;
+}
+
+.section-1 h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    gap: 24px;
+}
+.section-2{
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: row;
+    margin: 48px;
+    background-color: #F8F9FC;
+    
+}
+
+.head-2{
+    font-weight: 800;
+    font-size: 24px;
+}
+.section-3{
+    display: flex;
+    justify-content: baseline;
+    margin: 48px;
+}
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    background-color: #dedee8;
+}
+.btn-2,.btn-3,.btn-4{
+    font-weight: 700;
+    padding: 10px;
+    background-color: green;
+    color: #FDFDFE;
+    border-radius: 2px;
+}
+
+.section-5{
+    display: flex;
+    border-radius: 16px;
+   text-align: center;
+   margin: 60px;
+   background-color: #D4DBEA;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-container{
+    width: 800px;
+    border-radius: 16px;
+    margin-top: 48px;
+    box-shadow: #B5E8AA;
+}
+
+.skill-1{
+    background-color: #DBC5C5;
+    border-radius: 16px;
+}
+
+.skill-2{
+    background-color: #BEBED7;
+    border-radius: 16px;
+}
+.skill-3{
+    background-color: #E2E2F0;
+    border-radius: 16px;
+}
+
+.btn-5{
+    font-weight: 700;
+    padding: 10px;
+    background-color: green;
+    color: #FDFDFE;
+    border-radius: 3px;
+}
+
+.section-7{
+    margin: 0 auto;
+    background-image: url(./B10A1-Challenge-Begins-main/assets/handshake.jpg);
+    padding: 64px 48px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    margin-top: 49px;
+    border-radius: 16px;
+}
+.section-6{
+    background-color: #f8f8fa;
 }
